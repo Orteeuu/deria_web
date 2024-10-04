@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .container p{
+
+    margin-bottom:30px ;
+  }
+  
+  .services {
+    padding: 100px 0;
+    background-color: #fff;
+  }
+  
+  .services h2 {
+    text-align: center;
+    font-size:48px;
+    margin-bottom: 60px;
+  }
+  
+  .service-item {
+    margin-bottom: 50px;
+  }
+  
+  .service-item h3 {
+    color: #0db5d9;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  
+  .service-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .service-item ul {
+    list-style: disc inside;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  
+  .service-item ul li {
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary, .btn-secondary {
+    margin-left: 30px;
+
+    background-color: #0db5d9;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .btn-secondary {
+    background-color: #f5f5f5;
+    color: #0db5d9;
+    border: 2px solid #0db5d9;
+  }
+  
+  .btn-primary:hover, .btn-secondary:hover {
+    background-color: #0a94b1;
+    color: white;
+  }
+  
+  

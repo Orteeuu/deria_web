@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html,
+body {
+    height: 100%;
+
+    font-family: 'Play', sans-serif;
+    /* Cambia 'Play' por 'Fredoka One' si prefieres esa fuente */
+    margin: 0;
+    /* Si quieres eliminar márgenes predeterminados */
+    padding: 0;
+    /* Si quieres eliminar relleno predeterminado */
+
+
+
+    font-family: 'Play';
+
+}
