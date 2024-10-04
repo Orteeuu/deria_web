@@ -4,9 +4,11 @@ import { HomeComponent } from './home/home.component'; // Importa el componente 
 import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
 import { NuestrosServiciosComponent } from './nuestros-servicios/nuestros-servicios.component';
 import { ConocnenosComponent } from './conocnenos/conocnenos.component';
+import { HomeServicesComponent } from './home-services/home-services.component';
 
 const routes: Routes = [
   {path:'sobreNosotros', component: SobreNosotrosComponent},
+  {path: 'polla', component: HomeServicesComponent},
   {path:'equipo', component: ConocnenosComponent},
   {path:'nuestrosServicios', component: NuestrosServiciosComponent},
   {path:'nuestrosServicios', component: NuestrosServiciosComponent},
