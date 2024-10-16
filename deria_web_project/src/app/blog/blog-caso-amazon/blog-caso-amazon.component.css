@@ -1,0 +1,58 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.newspaper {
+    width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.8;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', serif;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', serif;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+ul {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    .newspaper {
+        width: 100%;
+        padding: 20px;
+    }
+}

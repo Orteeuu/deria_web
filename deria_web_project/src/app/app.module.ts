@@ -10,6 +10,8 @@ import { NuestrosServiciosComponent } from './nuestros-servicios/nuestros-servic
 import { ContactoComponent } from './contacto/contacto.component';
 import { ConocnenosComponent } from './conocnenos/conocnenos.component';
 import { HomeServicesComponent } from './home-services/home-services.component';
+import { BlogComponent } from './blog/blog.component';
+import { BlogCasoAmazonComponent } from './blog/blog-caso-amazon/blog-caso-amazon.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { HomeServicesComponent } from './home-services/home-services.component';
     NuestrosServiciosComponent,
     ContactoComponent,
     ConocnenosComponent,
-    HomeServicesComponent
+    HomeServicesComponent,
+    BlogComponent,
+    BlogCasoAmazonComponent
   ],
   imports: [
     BrowserModule,
